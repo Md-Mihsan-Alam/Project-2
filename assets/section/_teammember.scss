@@ -1,0 +1,25 @@
+.memberdetails{
+    line-height: 0.5;
+    h4{
+        color: map-get($color, "teammemdetailsh4");
+        font-size: map-get($fontsize, "teammemdetailsh4");
+        font-weight: map-get($fontwth, "teammemdetailsh4");
+        margin-left: map-get($marginL, "teammemdetailsh4");
+    }
+    span{
+        font-size: map-get($fontsize, "teammemdetailsspan");
+        font-weight: map-get($fontwth, "teammemdetailsspan");
+    }
+}
+.teammem1 span{
+    margin-left: map-get($marginL, "teammem1span");
+}
+.teammem2 span{
+    margin-left: map-get($marginL, "teammem2span");
+}
+.teammem3 span{
+    margin-left: map-get($marginL, "teammem3span");
+}
+.teammem4 span{
+    margin-left: map-get($marginL, "teammem4span");
+}

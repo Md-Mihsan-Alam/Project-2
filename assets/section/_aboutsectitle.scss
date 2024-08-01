@@ -1,0 +1,15 @@
+@import "variables";
+.aboutsectitle{
+    margin-left: map-get($marginL, "aboutsectitle" );
+    margin-top: map-get($marginT, "aboutsectitle" );
+    h2{
+        color: map-get($color, "aboutsectitleh2" );
+        font-size: map-get($fontsize, "aboutsectitleh2" );
+        margin-left: map-get($marginL, "aboutsectitleh2" );
+    }
+    p{
+        font-size: map-get($fontsize, "aboutsectitlep" );
+        color: map-get($color, "aboutsectitlep" );
+        font-weight: map-get($fontwth, "aboutsectitlep" );
+    }
+}

@@ -1,0 +1,729 @@
+.herotitle {
+  margin-top: 100px;
+  margin-left: 450px;
+}
+.herotitle h1 {
+  color: rgb(18, 66, 101);
+  font-size: 56px;
+  text-align: center;
+}
+.herotitle p {
+  font-size: 22px;
+  text-align: center;
+}
+
+.herobutton {
+  margin-left: 850px;
+  margin-top: 40px;
+}
+.herobutton button {
+  background-color: rgb(36, 135, 206);
+  height: 50px;
+  width: 150px;
+  font-size: 22px;
+}
+
+.bgimg {
+  background-image: url(/assets/img/hero-bg-abstract.jpg);
+  height: 890px;
+  width: 3500px;
+}
+
+.iconbox1 {
+  height: 270px;
+  width: 260px;
+  background-color: white;
+  margin-top: -300px;
+  padding: 50px 30px 30px 50px;
+}
+.iconbox1 i {
+  font-size: 36px;
+  color: rgb(36, 135, 206);
+  margin-bottom: 20px;
+}
+.iconbox1 h4 {
+  font-size: 18px;
+  color: rgb(18, 66, 101);
+  font-weight: 700;
+}
+.iconbox1 p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.iconbox1:hover h4 {
+  color: rgb(36, 135, 206);
+}
+
+.aboutsectitle {
+  margin-left: 250px;
+  margin-top: 50px;
+}
+.aboutsectitle h2 {
+  color: rgb(18, 66, 101);
+  margin-left: 240px;
+}
+.aboutsectitle p {
+  font-size: 16px;
+  color: rgb(68, 68, 68);
+  font-weight: 400;
+}
+
+* {
+  list-style: none;
+}
+
+.firstbx {
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(68, 68, 68);
+}
+.firstbx ul {
+  margin-left: -40px;
+}
+
+.secondbx {
+  margin-top: 50px;
+}
+.secondbx .aboutbtn button {
+  background-color: rgb(36, 135, 206);
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+}
+.secondbx .aboutbtn button i {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.clientbx {
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.clientbx span {
+  font-size: 48px;
+  color: rgb(36, 135, 206);
+  font-weight: 700;
+}
+.clientbx p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.projects {
+  margin-left: 80px;
+  margin-top: 40px;
+}
+.projects span {
+  font-size: 48px;
+  color: rgb(36, 135, 206);
+  font-weight: 700;
+}
+.projects p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.hos {
+  margin-left: 80px;
+  margin-top: 40px;
+}
+.hos span {
+  font-size: 48px;
+  color: rgb(36, 135, 206);
+  font-weight: 700;
+}
+.hos p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.worker {
+  margin-left: 80px;
+  margin-top: 40px;
+}
+.worker span {
+  font-size: 48px;
+  color: rgb(36, 135, 206);
+  font-weight: 700;
+}
+.worker p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.aboutimg {
+  margin-top: 50px;
+}
+
+.aboutdetails {
+  margin-top: 50px;
+}
+.aboutdetails h3 {
+  color: rgb(18, 66, 101);
+  font-size: 28px;
+  font-weight: 700;
+}
+.aboutdetails p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(68, 68, 68);
+}
+.aboutdetails ul {
+  line-height: 24px;
+  margin-left: -40px;
+}
+.aboutdetails ul li i {
+  color: rgb(36, 135, 206);
+}
+.aboutdetails ul li span {
+  text-align: left;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.servicesectitle {
+  margin-top: 60px;
+  margin-left: 280px;
+}
+.servicesectitle h2 {
+  color: rgb(18, 66, 101);
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 180px;
+}
+.servicesectitle p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(68, 68, 68);
+}
+
+.box1 {
+  height: 300px;
+  width: 350px;
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #ddd;
+}
+.box1 i {
+  font-size: 36px;
+  margin-left: 120px;
+  margin-top: 20px;
+  color: rgb(13, 202, 240);
+}
+.box1 h3 {
+  font-size: 24px;
+  color: rgb(1, 41, 112);
+  font-family: sans-serif;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.box1 p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.box2 {
+  height: 300px;
+  width: 350px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #ddd;
+}
+.box2 i {
+  font-size: 36px;
+  margin-left: 120px;
+  margin-top: 20px;
+  color: rgb(223, 21, 41);
+}
+.box2 h3 {
+  font-size: 24px;
+  color: rgb(1, 41, 112);
+  font-family: sans-serif;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.box2 p {
+  font-size: 16px;
+}
+
+.box3 {
+  height: 300px;
+  width: 350px;
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #ddd;
+}
+.box3 i {
+  font-size: 36px;
+  margin-left: 120px;
+  margin-top: 20px;
+  color: rgb(253, 126, 20);
+}
+.box3 h3 {
+  font-size: 24px;
+  color: rgb(1, 41, 112);
+  font-family: sans-serif;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.box3 p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.box4 {
+  height: 300px;
+  width: 350px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #ddd;
+}
+.box4 i {
+  font-size: 36px;
+  margin-left: 120px;
+  margin-top: 20px;
+  color: rgb(102, 16, 242);
+}
+.box4 h3 {
+  font-size: 24px;
+  color: rgb(1, 41, 112);
+  font-family: Nunito, sans-serif;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.box4 p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.box5 {
+  height: 300px;
+  width: 350px;
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #ddd;
+}
+.box5 i {
+  font-size: 36px;
+  margin-left: 120px;
+  margin-top: 20px;
+  color: rgb(32, 201, 151);
+}
+.box5 h3 {
+  font-size: 24px;
+  color: rgb(1, 41, 112);
+  font-family: sans-serif;
+  margin-left: 75px;
+  margin-top: 10px;
+}
+.box5 p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.box6 {
+  height: 300px;
+  width: 350px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #ddd;
+}
+.box6 i {
+  font-size: 36px;
+  margin-left: 120px;
+  margin-top: 20px;
+  color: rgb(243, 38, 140);
+}
+.box6 h3 {
+  font-size: 24px;
+  color: rgb(1, 41, 112);
+  font-family: sans-serif;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.box6 p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.calltoaction {
+  margin-top: 80px;
+}
+.calltoaction h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 450px;
+}
+.calltoaction p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.calltoaction button {
+  margin-left: 465px;
+}
+
+.portfoliotitle {
+  margin-top: 40px;
+  margin-left: 250px;
+}
+.portfoliotitle h2 {
+  color: rgb(18, 66, 101);
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 200px;
+}
+.portfoliotitle p {
+  color: rgb(64, 64, 64);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.item1 {
+  height: 300px;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.item2 {
+  height: 300px;
+  width: 350px;
+  margin-top: 40px;
+}
+
+.item3 {
+  height: 300px;
+  width: 350px;
+  margin-top: 40px;
+}
+
+.item4 {
+  height: 300px;
+  width: 350px;
+  margin-top: -20px;
+}
+
+.item5 {
+  height: 300px;
+  width: 350px;
+  margin-top: 40px;
+}
+
+.item6 {
+  height: 300px;
+  width: 350px;
+  margin-top: 240px;
+}
+
+.item7 {
+  height: 300px;
+  width: 350px;
+  margin-top: 20px;
+}
+
+.item8 {
+  height: 300px;
+  width: 350px;
+  margin-top: -20px;
+}
+
+.item9 {
+  height: 300px;
+  width: 350px;
+  margin-top: -20px;
+}
+
+.teamtitle {
+  margin-left: 250px;
+}
+.teamtitle h2 {
+  color: rgb(18, 66, 101);
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 230px;
+}
+.teamtitle p {
+  color: rgb(64, 64, 64);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.memberdetails {
+  line-height: 0.5;
+}
+.memberdetails h4 {
+  color: rgb(18, 66, 101);
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+.memberdetails span {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.teammem1 span {
+  margin-left: 45px;
+}
+
+.teammem2 span {
+  margin-left: 60px;
+}
+
+.teammem3 span {
+  margin-left: 120px;
+}
+
+.teammem4 span {
+  margin-left: 90px;
+}
+
+.pricingtitle {
+  margin-top: 40px;
+  margin-left: 250px;
+}
+.pricingtitle h2 {
+  color: rgb(18, 66, 101);
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 220px;
+}
+.pricingtitle p {
+  color: rgb(64, 64, 64);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.pricingitem1 {
+  height: 450px;
+  background-color: #f4f2f2;
+  padding: 20px;
+  margin-top: 80px;
+}
+.pricingitem1 h3 {
+  font-size: 26px;
+  color: rgb(18, 66, 101);
+  font-weight: 600;
+  margin-top: 20px;
+}
+.pricingitem1 .price {
+  font-size: 34px;
+  color: rgb(36, 135, 206);
+}
+.pricingitem1 .price sup {
+  font-size: 20px;
+}
+.pricingitem1 .price span {
+  font-size: 18px;
+  color: black;
+}
+.pricingitem1 ul {
+  margin-left: -40px;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+}
+.pricingitem1 button {
+  margin-left: 60px;
+  margin-top: 20px;
+  width: 150px;
+}
+
+.pricingitem2 {
+  height: 500px;
+  width: 350px;
+  background-color: #0048ff;
+  padding: 20px;
+  margin-top: 50px;
+}
+.pricingitem2 h3 {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.pricingitem2 .price {
+  font-size: 34px;
+  color: white;
+}
+.pricingitem2 .price sup {
+  font-size: 20px;
+}
+.pricingitem2 .price span {
+  font-size: 18px;
+  color: white;
+}
+.pricingitem2 ul {
+  margin-left: -40px;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  color: white;
+}
+.pricingitem2 button {
+  background-color: #0048ff;
+  border: 1px solid white;
+  margin-left: 60px;
+  margin-top: 20px;
+  width: 150px;
+  color: white;
+}
+
+.FAQtitle {
+  margin-top: 40px;
+  margin-left: 250px;
+}
+.FAQtitle h2 {
+  color: rgb(18, 66, 101);
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 70px;
+}
+.FAQtitle p {
+  color: rgb(64, 64, 64);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contecttitle {
+  margin-top: 40px;
+  margin-left: 250px;
+}
+.contecttitle h2 {
+  color: rgb(18, 66, 101);
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 230px;
+}
+.contecttitle p {
+  color: rgb(64, 64, 64);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contectbox {
+  height: 100px;
+  width: 350px;
+  padding: 20px;
+}
+.contectbox i {
+  font-size: 38px;
+  color: rgb(65, 84, 241);
+  margin-top: 30px;
+}
+.contectbox h3 {
+  font-size: 18px;
+  margin-top: -40px;
+  margin-left: 50px;
+}
+.contectbox p {
+  font-size: 14px;
+  margin-top: -5px;
+  margin-left: 50px;
+}
+
+.contectform {
+  height: 420px;
+  width: 550px;
+  margin-top: 20px;
+  margin-left: 100px;
+  padding: 20px;
+}
+.contectform .name {
+  width: 325px;
+  margin-left: 40px;
+}
+.contectform .email {
+  width: 325px;
+  margin-left: 380px;
+  margin-top: -38px;
+}
+.contectform .Subject {
+  width: 665px;
+  margin-left: 40px;
+}
+.contectform .Massage {
+  width: 665px;
+  margin-left: 40px;
+}
+.contectform .Massage input {
+  height: 150px;
+}
+
+.sendbutton {
+  margin-left: 300px;
+  margin-top: 30px;
+}
+.sendbutton button {
+  font-size: 18px;
+}
+
+.container {
+  margin: auto;
+  max-width: 1170px;
+}
+
+.row {
+  display: flex;
+}
+
+.footer {
+  padding: 70px 0px;
+}
+
+.footer-col {
+  width: 500px;
+  padding: 0px 15px;
+}
+.footer-col h4 {
+  font-size: 28px;
+  color: rgb(1, 41, 112);
+}
+.footer-col p {
+  font-size: 14px;
+}
+.footer-col .sociallinks a {
+  height: 40px;
+  width: 40px;
+  margin: 0px 10px 10px 0px;
+  text-align: center;
+  line-height: 40px;
+}
+.footer-col .sociallinks a i {
+  font-size: 24px;
+}
+
+.footer-col .HASTlinks {
+  margin-left: 120px;
+}
+.footer-col .HASTlinks ul {
+  margin-left: -40px;
+}
+
+.servicelinks h4 {
+  margin-left: 140px;
+}
+.servicelinks ul {
+  margin-left: 105px;
+}
+
+.footer-col ul li a {
+  color: black;
+  line-height: 2;
+}
+
+.footer-col .details {
+  line-height: 1;
+  font-size: 18px;
+  margin-left: 170px;
+  width: 350px;
+}
+
+.footer-col ul li a:hover {
+  padding-left: 8px;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

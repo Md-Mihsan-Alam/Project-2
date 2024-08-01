@@ -1,0 +1,16 @@
+.calltoaction{
+    margin-top: map-get($marginT, "calltoaction");
+    h3{
+        font-size: map-get($fontsize, "calltoactionh3");
+        font-weight:map-get($fontwth, "calltoactionh3");
+        margin-left: map-get($marginL, "calltoactionh3");
+    }
+    p{
+        font-size: map-get($fontsize, "calltoactionp");
+        font-weight: map-get($fontwth, "calltoactionp");;
+        text-align: map-get($textalign, "calltoactionp");
+    }
+    button{
+        margin-left: map-get($marginL, "calltoactionbtn");
+    }
+}

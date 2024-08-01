@@ -1,0 +1,16 @@
+.servicesectitle{
+    margin-top: map-get($marginT, "servicesectitle");
+    margin-left: map-get($marginL, "servicesectitle");
+    h2{
+        color: map-get($color, "servicesectitleh2");
+        font-size: map-get($fontsize, "servicesectitleh2");
+        font-weight: map-get($fontwth, "servicesectitleh2");
+        margin-left: map-get($marginL, "servicesectitleh2");
+    }
+    p{
+        font-size: map-get($fontsize, "servicesectitlep");
+        font-weight: map-get($fontwth, "servicesectitlep");
+        color: map-get($color, "servicesectitlep");
+        margin-left: map-get($marginL, "servicesectitlep");
+    }   
+}

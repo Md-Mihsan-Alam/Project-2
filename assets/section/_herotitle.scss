@@ -1,0 +1,55 @@
+@import "variables";
+.herotitle{
+    margin-top: map-get($marginT, "herotitle" );
+    margin-left: map-get($marginL, "herotitle" );
+    h1{
+       color:map-get($color, "herotitleh1" );
+        font-size: map-get($fontsize, "herotitleh1" );
+        text-align: map-get($textalign, "herotitleh1" );
+    }
+    p{
+        font-size: map-get($fontsize, "herotitlep" );
+        text-align: map-get($textalign, "herotitlep" );
+    }
+}
+.herobutton{
+    margin-left: map-get($marginL, "herobtn" );
+    margin-top: map-get($marginT, "herobtn" );
+    button{
+       background-color:  map-get($bgclr, "herobtn" );
+       height: map-get($height, "herobtn" );
+       width: map-get($width, "herobtn" );
+       font-size: map-get($fontsize, "herobtn" );
+    }
+}
+.bgimg{
+    background-image: url(/assets/img/hero-bg-abstract.jpg);
+    height: map-get($height, "herobgimg");
+    width: map-get($width, "herobgimg");
+}
+.iconbox1{
+    height: map-get($height, "heroiconbx1");
+    width: map-get($width, "heroiconbx1");
+    background-color: map-get($bgclr, "heroiconbx1");
+    margin-top: map-get($marginT, "heroiconbx1");
+    padding: 50px 30px 30px 50px;
+    i{
+        font-size: map-get($fontsize, "heroiconbx1i");
+        color: map-get($color, "heroiconbx1i");
+        margin-bottom: map-get($marginB, "heroiconbx1i");
+    }
+    h4{
+        font-size: map-get($fontsize, "heroiconbx1h4");
+        color: map-get($color, "heroiconbxh4");
+        font-weight: map-get($fontwth, "heroiconbx1h4");
+    }
+    p{
+        font-size: map-get($fontsize, "heroiconbx1p");
+        font-weight:  map-get($fontwth, "heroiconbx1p" );
+    }
+}
+.iconbox1:hover{
+    h4{
+        color: map-get($clrhover, "heroiconbx1");; 
+    }
+}

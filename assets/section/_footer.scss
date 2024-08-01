@@ -1,0 +1,62 @@
+.container{
+    margin: auto;
+    max-width: map-get($width, "footercontainermx");
+}
+.row{
+    display: flex;
+}
+.footer{
+    padding: 70px 0px;
+}
+.footer-col{
+    width: map-get($width, "footercol");
+    padding: 0px 15px;
+    h4{ 
+        font-size: map-get($fontsize, "footercolh4");
+        color: map-get($color, "footercolh4");
+    }
+    p{
+        font-size: map-get($fontsize, "footercolp");
+    }
+    .sociallinks{
+        a{
+            height: map-get($height, "sociallinksa");
+            width: map-get($width, "sociallinksa");
+            margin: 0px 10px 10px 0px;
+            text-align: map-get($textalign, "sociallinksa");
+            line-height: map-get($lineheight, "sociallinksa");
+            i{
+                font-size: map-get($fontsize, "sociallinksai");
+            }
+        }
+    }
+}
+.footer-col .HASTlinks{
+    margin-left: map-get($marginL, "HASTlinks");
+    ul{
+        margin-left: map-get($marginL, "HASTlinksul");
+    }
+}
+.servicelinks{
+    h4{
+        margin-left: map-get($marginL, "servicelinksh4");
+    }
+    ul{
+        margin-left:map-get($marginL, "servicelinksul");
+    }
+}
+
+.footer-col ul li a{
+    color: map-get($color , "footercolullia");
+    line-height: map-get($lineheight , "footercolullia");
+}
+.footer-col .details {
+    line-height: map-get($lineheight , "footercoldetails");
+    font-size: map-get($fontsize , "footercoldetails");
+    margin-left: map-get($marginL , "footercoldetails");
+    width: map-get($width , "footercoldetails");
+}
+.footer-col ul li a:hover{
+    padding-left: map-get($paddingleft , "footercolulliahover");
+    text-decoration: map-get($textdecoration , "footercolulliahover");
+}

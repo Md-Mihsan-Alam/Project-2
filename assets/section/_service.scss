@@ -1,0 +1,147 @@
+.box1{
+    height: map-get($height, "servicebx1");
+    width: map-get($width, "servicebx1");
+    margin-top: map-get($marginT, "servicebx1");
+    padding: map-get($padding, "servicebx1");
+    background-color: map-get($bgclr, "serviceallbx");
+    i{
+        font-size: map-get($fontsize, "serviceallbxi");
+        margin-left: map-get($marginL, "serviceallbxi");
+        margin-top: map-get($marginT, "servicebx1i");
+        color: map-get($color, "servicebx1i");
+    }
+    h3{
+        font-size: map-get($fontsize, "serviceallbxh3");
+        color: map-get($color, "servicebx1h3");
+        font-family: sans-serif;
+        margin-left: map-get($marginL, "servicebx1h3");
+        margin-top: map-get($marginT, "servicebx1h3");
+    }
+    p{
+        font-size: map-get($fontsize, "serviceallbxp");
+        text-align:  map-get($textalign, "servicebx1p");
+    }
+}
+
+.box2{
+    height: map-get($height, "servicebx2");
+    width: map-get($width, "servicebx2");
+    margin-top: map-get($marginT, "servicebx2");
+    padding: map-get($padding, "servicebx2");
+    background-color: map-get($bgclr, "serviceallbx");
+    i{
+        font-size: map-get($fontsize, "serviceallbxi");
+        margin-left: map-get($marginL, "serviceallbxi");
+        margin-top: map-get($marginT, "servicebx2i");
+        color: map-get($color, "servicebx2i");
+    }
+    h3{
+        font-size: map-get($fontsize, "serviceallbxh3");
+        color: map-get($color, "servicebx2h3");
+        font-family: sans-serif;
+        margin-left: map-get($marginL, "servicebx2h3");
+        margin-top: map-get($marginT, "servicebx2h3");
+    }
+    p{
+        font-size: map-get($fontsize, "serviceallbxp");
+        text-align: map-get($textalign, "servicebx2");
+    }
+}
+.box3{
+    height: map-get($height, "servicebx3");
+    width: map-get($width, "servicebx3");
+    margin-top: map-get($marginT, "servicebx3");
+    padding: map-get($padding, "servicebx3");
+    background-color: map-get($bgclr, "serviceallbx");
+    i{
+        font-size: map-get($fontsize, "serviceallbxi");
+        margin-left: map-get($marginL, "serviceallbxi");
+        margin-top: map-get($marginT, "servicebx3i");
+        color: map-get($color, "servicebx3i");
+    }
+    h3{
+        font-size: map-get($fontsize, "serviceallbxh3");
+        color: map-get($color, "servicebx3h3");
+        font-family: sans-serif;
+        margin-left: map-get($marginL, "servicebx3h3");
+        margin-top: map-get($marginT, "servicebx3h3");
+    }
+    p{
+        font-size: map-get($fontsize, "serviceallbxp");
+        text-align: map-get($textalign, "servicebx3p");
+    }
+}
+
+.box4{
+    height: map-get($height, "servicebx4");
+    width: map-get($width, "servicebx4");
+    margin-top: map-get($marginT, "servicebx4");
+    padding: map-get($padding, "servicebx4");
+    background-color: map-get($bgclr, "serviceallbx");
+    i{
+        font-size: map-get($fontsize, "serviceallbxi");
+        margin-left: map-get($marginL, "serviceallbxi");
+        margin-top: map-get($marginT, "servicebx4i");
+        color: map-get($color, "servicebx4i");
+    }
+    h3{
+        font-size: map-get($fontsize, "serviceallbxh3");
+        color: map-get($color, "servicebx4h3");
+        font-family: Nunito, sans-serif;
+        margin-left: map-get($marginL, "servicebx4h3");
+        margin-top: map-get($marginT, "servicebx4h3");
+    }
+    p{
+        font-size: map-get($fontsize, "serviceallbxp");
+        text-align: map-get($textalign, "servicebx4p");
+    }
+}
+.box5{
+    height: map-get($height, "servicebx5");
+    width:  map-get($width, "servicebx5");
+    margin-top: map-get($marginT, "servicebx5");
+    padding: map-get($padding, "servicebx5");
+    background-color: map-get($bgclr, "serviceallbx");
+    i{
+        font-size: map-get($fontsize, "serviceallbxi");
+        margin-left: map-get($marginL, "serviceallbxi");
+        margin-top: map-get($marginT, "servicebx5i");
+        color: map-get($color, "servicebx5i");
+    }
+    h3{
+        font-size: map-get($fontsize, "serviceallbxh3");
+        color: map-get($color, "servicebx5h3");
+        font-family:sans-serif;
+        margin-left: map-get($marginL, "servicebx5h3");
+        margin-top: map-get($marginT, "servicebx5h3");
+    }
+    p{
+        font-size: map-get($fontsize, "serviceallbxp");
+        text-align: map-get($textalign, "servicebx5p");
+    }
+}
+
+.box6{
+    height: map-get($height, "servicebx6");
+    width: map-get($width, "servicebx6");
+    margin-top:  map-get($marginT, "servicebx6");
+    padding: map-get($padding, "servicebx6");
+    background-color: map-get($bgclr, "serviceallbx");
+    i{
+        font-size: map-get($fontsize, "serviceallbxi");
+        margin-left: map-get($marginL, "serviceallbxi");
+        margin-top:  map-get($marginT, "servicebx6i");
+        color: map-get($color, "servicebx6i");
+    }
+    h3{
+        font-size: map-get($fontsize, "serviceallbxh3");
+        color: map-get($color, "servicebx6h3");
+        font-family: sans-serif;
+        margin-left: map-get($marginL, "servicebx6h3");
+        margin-top:  map-get($marginT, "servicebx6h3");
+    }
+    p{
+        font-size: map-get($fontsize, "serviceallbxp");
+        text-align:map-get($textalign, "servicebx6p");
+    }
+}

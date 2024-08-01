@@ -1,0 +1,56 @@
+.contectbox{
+    height: map-get($height, "contectbox");
+    width: map-get($width, "contectbox");
+    padding: map-get($padding, "contectbox");
+    i{
+        font-size: map-get($fontsize, "contectboxi");
+        color: map-get($color, "contectboxi");
+        margin-top:  map-get($marginT, "contectboxi");
+    }
+    h3{
+        font-size: map-get($fontsize, "contectboxh3");
+        color: map-get($color, "contectboxh3");
+        margin-top: map-get($marginT, "contectboxh3");
+        margin-left: map-get($marginL, "contectboxh3");
+    }
+    p{
+        font-size: map-get($fontsize, "contectboxp");
+        margin-top: map-get($marginT, "contectboxp");
+        margin-left: map-get($marginL, "contectboxp");
+    }
+}
+.contectform{
+    height: map-get($height, "contectform");
+    width: map-get($width, "contectform");
+    margin-top: map-get($marginT, "contectform");
+    margin-left: map-get($marginL, "contectform");
+    padding: map-get($padding, "contectform");
+    .name{
+        width: map-get($width, "contectformname");
+        margin-left: map-get($marginL, "contectformname");
+    }
+    .email{
+        width: map-get($width, "contectformemail");
+        margin-left: map-get($marginL, "contectformemail");
+        margin-top: map-get($marginT, "contectformemail");
+    }
+    .Subject{
+        width: map-get($width, "contectformsubject");
+        margin-left: map-get($marginL, "contectformsubject");
+    }
+    .Massage{
+        width: map-get($width, "contectformmsg");
+        margin-left: map-get($marginL, "contectformmsg");
+        input{
+            height: map-get($height, "contectformmsginput");
+        }
+    }
+}
+.sendbutton{
+    margin-left: map-get($marginL, "sendbutton");
+    margin-top: map-get($marginT, "sendbutton");
+    button{
+        background-color: map-get($bgclr, "sendbuttonbtn");
+        font-size: map-get($fontsize, "sendbuttonbtn");
+    }
+}

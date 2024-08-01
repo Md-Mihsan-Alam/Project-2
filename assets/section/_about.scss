@@ -1,0 +1,29 @@
+@import "variables";
+*{
+    list-style: none;
+}
+.firstbx{
+    margin-top: map-get($marginT, "aboutfirstbx");
+    font-size: map-get($fontsize, "aboutfirstbx");
+    font-weight: map-get($fontwth, "aboutfirstbx");
+    color: map-get($color, "aboutfirstbx");
+    ul{
+        margin-left: map-get($marginL, "aboutfirstbxul");
+    }
+}
+.secondbx{
+    margin-top: map-get($marginT, "aboutsecendbx");
+.aboutbtn{
+    button{    
+        background-color: map-get($bgclr, "aboutbtn");
+        width: map-get($width, "aboutbtn");
+        height: map-get($height, "aboutbtn");
+        font-size: map-get($fontsize, "aboutbtn");
+            i{
+                margin-left: map-get($marginL, "aboutbtni");
+                margin-top: map-get($marginT, "aboutbtni");
+            }
+        }
+
+    }
+}

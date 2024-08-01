@@ -1,0 +1,52 @@
+.clientbx{
+    margin-top: map-get($marginT,"statusclientbx" );
+    margin-left: map-get($marginL,"statusclientbx" );
+    span{
+        font-size: map-get($fontsize, "statusclientbxspan");
+        color: map-get($color,"statusclientbxspan" );
+        font-weight: map-get($fontwth,"statusclientbxspan" );
+    }
+    p{
+        font-size: map-get($fontsize, "statusclientbxp");
+        font-weight: map-get($fontwth,"statusclientbxp" );
+    }
+}
+.projects{
+    margin-left: map-get($marginL, "statusprojects");
+    margin-top: map-get($marginT, "statusprojects");
+    span{
+        font-size: map-get($fontsize, "statusprojectsspan");
+        color: map-get($color, "statusprojectsspan");
+        font-weight: map-get($fontwth, "statusprojectsspan");
+    }
+    p{
+        font-size: map-get($fontsize, "statusprojectsp");
+        font-weight: map-get($fontwth, "statusprojectsp");
+    }
+}
+.hos{
+    margin-left: map-get($marginL, "statushos");
+    margin-top: map-get($marginT, "statushos");
+    span{
+        font-size: map-get($fontsize, "statushosspan");
+        color: map-get($color, "statusprojectsspan");
+        font-weight:map-get($fontwth, "statushosspan");
+    }
+    p{
+        font-size: map-get($fontsize, "statushosp");
+        font-weight:map-get($fontwth, "statushosspan");
+    }
+}
+.worker{
+    margin-left: map-get($marginL, "statusworkers");
+    margin-top: map-get($marginT, "statusworkers");
+    span{
+        font-size: map-get($fontsize, "statusworkersspan");
+        color: map-get($color, "statusworkersspan");
+        font-weight: map-get($fontwth, "statusworkersspan");
+    }
+    p{
+        font-size: map-get($fontsize, "statusworkersp");
+        font-weight: map-get($fontwth, "statusworkersp");
+    }
+}

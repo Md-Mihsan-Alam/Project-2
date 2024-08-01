@@ -1,0 +1,15 @@
+.portfoliotitle{
+    margin-top: map-get($marginT, "portfoliotitle");
+    margin-left: map-get($marginL, "portfoliotitle");
+    h2{
+        color: map-get($color, "portfoliotitleh2");
+        font-size:  map-get($fontsize, "portfoliotitleh2");
+        font-weight: map-get($fontwth, "portfoliotitleh2");
+        margin-left: map-get($marginL, "portfoliotitleh2");
+    }
+    p{
+        color: map-get($color, "portfoliotitlep");
+        font-size:  map-get($fontsize, "portfoliotitlep");
+        font-weight:  map-get($fontwth, "portfoliotitlep");
+    }
+}

@@ -1,0 +1,15 @@
+.pricingtitle{
+    margin-top: map-get($marginT, "pricingtitle");
+    margin-left: map-get($marginL, "pricingtitle");
+    h2{
+        color: map-get($color, "pricingtitleh2");
+        font-size: map-get($fontsize, "pricingtitleh2");
+        font-weight: map-get($fontwth, "pricingtitleh2");
+        margin-left: map-get($marginL, "pricingtitleh2");
+    }
+    p{ 
+        color: map-get($color, "pricingtitlep");
+        font-size: map-get($fontsize, "pricingtitlep");
+        font-weight: map-get($fontwth, "pricingtitlep");
+    }
+}

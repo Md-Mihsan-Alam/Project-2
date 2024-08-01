@@ -1,0 +1,76 @@
+.pricingitem1{
+    height: map-get($height, "pricingitem1&3");
+    width: map-get($width, "pricingitem1&3");
+    background-color: map-get($bgclr, "pricingitem1&3");
+    padding: map-get($padding, "pricingitem1&3");
+    margin-top: map-get($marginT, "pricingitem1&3");
+    h3{
+        font-size: map-get($fontsize, "pricingitem1&3h3");
+        color: map-get($color, "pricingitem1&3h3");
+        font-weight: map-get($fontwth, "pricingitem1&3h3");
+        margin-top: map-get($marginT, "pricingitem1&3h3");
+    }
+    .price{
+        font-size: map-get($fontsize, "pricingitemprice");
+        color:  map-get($color, "pricingitemprice");
+        sup{
+            font-size: map-get($fontsize, "pricingitempricesup");
+        }
+        span{
+            font-size: map-get($fontsize, "pricingitempricespan");
+            color: map-get($color, "pricingitempricespan");
+        }
+    }
+    ul{
+        margin-left: map-get($marginL, "pricingitem1&3ul");
+        margin-top: map-get($marginT, "pricingitem1&3ul");
+        font-size: map-get($fontsize, "pricingitem1&3ul");
+        line-height: 1.6;
+        text-align: map-get($textalign, "pricingitem1&3ul");
+    }
+    button{
+        margin-left: map-get($marginL, "pricingitem1&3btn");
+        margin-top: map-get($marginT, "pricingitem1&3btn");
+        width: map-get($width, "pricingitem1&3btn");
+    }
+}
+.pricingitem2{
+    height: map-get($height, "pricingitem2");
+    width: map-get($width, "pricingitem2");
+    background-color: map-get($bgclr, "pricingitem2");
+    padding:  map-get($padding, "pricingitem2");
+    margin-top:  map-get($marginT, "pricingitem2");
+    h3{
+        font-size: map-get($fontsize, "pricingitem2h3");
+        color: map-get($color, "pricingitem2h3");
+        font-weight: map-get($fontwth, "pricingitem2h3");
+        margin-top: map-get($marginT, "pricingitem2h3");
+    }
+    .price{
+        font-size: map-get($fontsize, "pricingitem2price");
+        color: map-get($color, "pricingitem2price");
+        sup{
+            font-size: map-get($fontsize, "pricingitem2pricesup");
+        }
+        span{
+            font-size: map-get($fontsize, "pricingitem2pricespan");
+            color: map-get($color, "pricingitem2pricespan");
+        }
+    }
+    ul{
+        margin-left:  map-get($marginL, "pricingitem2ul");
+        margin-top:  map-get($marginT, "pricingitem2ul");
+        font-size: map-get($fontsize, "pricingitem2ul");
+        line-height: 1.6;
+        text-align: map-get($textalign, "pricingitem2ul");
+        color: map-get($color, "pricingitem2ul");
+    }
+    button{
+        background-color: map-get($bgclr, "pricingitem2btn");
+        border: 1px solid white;
+        margin-left: map-get($marginL, "pricingitem2btn");
+        margin-top: map-get($marginT, "pricingitem2btn");
+        width: map-get($width, "pricingitem2btn");
+        color: map-get($color, "pricingitem2btn");
+    }
+}

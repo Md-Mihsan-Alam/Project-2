@@ -1,0 +1,14 @@
+.teamtitle{
+    margin-left: map-get($marginL, "teamtitle");
+    h2{
+        color: map-get($color, "teamtitleh2");
+        font-size: map-get($fontsize, "teamtitleh2");
+        font-weight: map-get($fontwth, "teamtitleh2");
+        margin-left: map-get($marginL, "teamtitleh2");
+    }
+    p{
+        color: map-get($color, "teamtitlep");
+        font-size: map-get($fontsize, "teamtitlep");
+        font-weight: map-get($fontwth, "teamtitlep");
+    }
+}

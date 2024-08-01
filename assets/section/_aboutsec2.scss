@@ -1,0 +1,31 @@
+.aboutimg{
+    margin-top: map-get($marginT, "about2img");
+}
+.aboutdetails{
+    margin-top: map-get($marginT, "about2details");
+    h3{
+        color: map-get($color, "about2detailsh3");
+        font-size: map-get($fontsize, "about2detailsh3" );
+        font-weight: map-get($fontwth, "about2detailsh3" );
+    }
+    p{
+        font-size: map-get($fontsize, "about2detailsp" );
+        font-weight: map-get($fontwth, "about2detailsp" );
+        color: map-get($color, "about2detailsp");
+    }
+    ul{
+        line-height: map-get($lineheight, "about2detailsul");
+        margin-left: map-get($marginL, "about2detailsul");
+        li{
+            i{
+                font-size: map-get($fontsize, "about2detailsuli");
+                color: map-get($color, "about2detailsuli"); 
+            }
+            span{
+                text-align: map-get($textalign, "about2detailsulspan"); 
+                font-size: map-get($fontsize, "about2detailsulspan");
+                margin-left: map-get($marginL, "about2detailsulspan");
+            }
+        }
+    }
+}
